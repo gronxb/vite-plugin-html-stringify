@@ -1,0 +1,40 @@
+{
+  "name": "vite-plugin-html-stringify",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.cjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "description": "A Vite plugin that converts HTML to a string format that can be exported.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gronxb/webview-bridge.git"
+  },
+  "author": "gron1gh1@gmail.com",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs"
+  },
+  "keywords": [
+    "vite"
+  ],
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "@types/node": "^22.8.1",
+    "vite": "^5.4.10",
+    "@biomejs/biome": "^1.9.4",
+    "typescript": "^5.6.3"
+  }
+}
