@@ -1,4 +1,5 @@
 # vite-plugin-html-stringify
+[![NPM](https://img.shields.io/npm/v/vite-plugin-html-stringify/latest?label=vite-plugin-html-stringify)](https://www.npmjs.com/package/vite-plugin-html-stringify)
 
 Converts index.html into a string, transforming it into a file that can be read in code.
 
